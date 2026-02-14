@@ -28,7 +28,7 @@ docker-compose up --build
 
 
 Open the app
-Frontend: http://localhost
+Frontend: http://localhost:8080/
 Backend API: http://localhost:8000
 
 

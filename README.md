@@ -1,66 +1,50 @@
-\# Bitvivid Project
+Bitvivid Project
+
+A simple frontend + backend project running with Docker for easy setup.
+
+Project Structure
+
+Prerequisites
 
 
 
-A simple \*\*frontend + backend project\*\* running with \*\*Docker\*\* for easy setup.
+Docker & Docker Compose
 
+Git (optional for cloning)
 
+How to Run
 
----
+Clone repo
 
-
-
-\## Project Structure
-
-
-
-
-
----
-
-
-
-\## Prerequisites
-
-
-
-\- Docker \& Docker Compose
-
-\- Git (optional for cloning)
-
-
-
----
-
-
-
-\## How to Run
-
-
-
-1\. \*\*Clone repo\*\*
-
-```bash
+bash
 
 git clone https://github.com/gauribhat1105-bit/bitvivid-project.git
 
 cd bitvivid-project
 
+
+Build & start containers:
 docker-compose up --build
+
 
 Open the app
-
-
-
 Frontend: http://localhost
-
-
-
 Backend API: http://localhost:8000
 
+
+Stop containers:
 docker-compose down
 
+
+Rebuild containers after code changes:
 docker-compose up --build
+
+
+
+
+
+
+
 
 
 
